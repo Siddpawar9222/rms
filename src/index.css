@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .loading-indicator:before {
-  content: '';
+  content: "";
   background: #00000080;
   position: fixed;
   width: 100%;
@@ -15,7 +14,7 @@
 }
 
 .loading-indicator:after {
-  content: '';
+  content: "";
   position: fixed;
   top: 40%;
   left: 50%;
@@ -25,8 +24,8 @@
   text-align: center;
   font-weight: bold;
   font-size: 1.2rem;
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #0474bf; /* Blue */
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #0474bf;
   border-radius: 50%;
   width: 120px;
   height: 120px;
